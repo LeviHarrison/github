@@ -1,10 +1,10 @@
 /* ==UserStyle==
-@name Github Dracula
-@namespace https://github.com/Dracula
-@homepageURL https://github.com/Dracula/github
-@supportURL https://github.com/Dracula/github/issues
+@name Github Dracula Adjusted
+@namespace https://github.com/LeviHarrison
+@homepageURL https://github.com/LeviHarrison/github-dracula
+@supportURL https://github.com/LeviHarrison/github-dracula
 @version 1.0.0
-@updateURL https://github.com/Dracula/github/raw/master/style.user.css
+@updateURL https://github.com/LeviHarrison/github-dracula/raw/master/style.user.css
 @description  🧛🏻‍♂️ Dark theme for Github
 @author Umbreon
 @license MIT
@@ -25,7 +25,6 @@
     [data-color-mode="light"][data-light-theme="dark_dimmed"], [data-color-mode="dark"][data-dark-theme="dark_dimmed"] //Dark dimmed
     {
         --color-canvas-default-transparent: rgba(13, 17, 23, 0);
-        --color-page-header-bg: #282a36;
         --color-marketing-icon-primary: #79c0ff;
         --color-marketing-icon-secondary: #1f6feb;
         --color-diff-blob-addition-num-text: #c9d1d9;
@@ -167,9 +166,6 @@
         --color-checks-ansi-magenta-bright: #FF92DF;
         --color-checks-ansi-cyan: #8BE9FD;
         --color-checks-ansi-cyan-bright: #A4FFFF;
-        --color-project-header-bg: #282a36;
-        --color-project-sidebar-bg: #282a36;
-        --color-project-gradient-in: #282a36;
         --color-project-gradient-out: rgba(22, 27, 34, 0);
         --color-mktg-btn-bg: #f6f8fa;
         --color-mktg-btn-shadow-outline: rgb(255 255 255 / 25%) 0 0 0 1px inset;
@@ -190,8 +186,6 @@
         --color-header-text: rgba(240, 246, 252, 0.7);
         if (purple-topbar) {
             --color-header-bg: #383a59;
-        } else {
-            --color-header-bg: #282a36;
         }
         --color-header-divider: #8b949e;
         --color-header-logo: #f0f6fc;
@@ -299,9 +293,6 @@
         --color-fg-default: #f8f8f2;
         --color-fg-muted: #8b949e;
         --color-fg-subtle: #484f58;
-        --color-canvas-default: #282a36;
-        --color-canvas-overlay: #282a36;
-        --color-canvas-inset: #282a36;
         --color-canvas-subtle: #323543;
         --color-border-default: #44475a;
         --color-border-muted: #44475a;
